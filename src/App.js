@@ -29,7 +29,7 @@ function ProtectedRoute({ element, userRole, requiredRole, redirectTo }) {
 }
 
 function App() {
-  // 접속 유저 확인
+  // 접속 유저 확인----
   const token = localStorage.getItem("refreshToken");
   let userRole = null;
 
