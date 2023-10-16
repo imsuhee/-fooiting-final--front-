@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { localurl } from "../utils/localUrl";
 import { formatTime } from "../utils/formatTime";
 
+//완료
 function AdminRestaurantList() {
   const [restaurants, setRestaurants] = useState([]);
 
